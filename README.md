@@ -1,40 +1,40 @@
-# Quasar App (super-front)
+# 🎬 Front SG Super
 
-A Quasar Project
+Aplicação web do sistema SG Super, responsável pela interface do usuário para gerenciamento de vendas, produtos e operações do sistema, com uma interface moderna e responsiva.
 
-## Install the dependencies
-```bash
-yarn
-# or
+## 🛠 Tecnologias Utilizadas
+
+- Vue 3 (Composition API + script setup)
+- Quasar Framework 
+- Vue Router
+- Pinia (gerenciamento de estado)
+- TypeScript
+- Axios (requisições HTTP)
+- Tailwind CSS
+- LocalStorage
+- API do GIPHY
+
+## ⚙️ Configuração do Projeto
+
+### 📌 Pré-requisitos
+
+- Node.js (versão recomendada: v24.14.1)
+- NPM ou Yarn
+
+### 📥 Instalação
+
 npm install
-```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+ou
 
+yarn install
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+Obs: Os comandos acima devem ser executados dentro da pasta do projeto Front SG Super
+
+## ▶️ Executar em Modo Desenvolvimento
+
+npm run dev
 
 
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+© 2026 - Samuel Ribeiro
+Projeto para fins educacionais.
