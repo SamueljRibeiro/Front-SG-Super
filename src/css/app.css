@@ -1,1 +1,27 @@
 /* app global css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.meu-gradiente {
+  background: linear-gradient(180deg, #155dfc 0%, #1447e6 100%);
+}
+
+/*Custom font */
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Custom Input */
+.custom-input .q-field__control {
+  border-radius: 10px;
+}
+
+.custom-select .q-field__control {
+  border-radius: 10px;
+}
+
+/* Custom Tab */
+.custom-tab .q-tabs__content {
+  border-radius: 10px;
+}
